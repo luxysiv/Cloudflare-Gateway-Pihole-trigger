@@ -1,0 +1,12 @@
+name = "cloudflare-gateway-pihole-trigger"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+GITHUB_TOKEN = ""
+GITHUB_USER = ""
+GITHUB_REPO = ""
+WORKFLOW_ID = "main.yml"
+
+[triggers]
+crons = ["0 * * * *"]
